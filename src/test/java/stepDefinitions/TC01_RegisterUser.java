@@ -14,7 +14,7 @@ import utilities.ReusableMethods;
 import static org.junit.Assert.assertEquals;
 import static utilities.Driver.getDriver;
 
-public class T01_RegisterUser {
+public class TC01_RegisterUser {
     AutomationPage auto = new AutomationPage();
 
 

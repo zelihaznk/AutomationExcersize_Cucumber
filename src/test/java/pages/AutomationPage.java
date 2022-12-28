@@ -211,5 +211,95 @@ public class AutomationPage {
     @FindBy(css = "#first_name")
     public WebElement firstnameBoxNewSignup;
 
+    //TC10-11
+    @FindBy(xpath = "//h2[text()='Subscription']")
+    public WebElement subscriptionTitle;
+
+
+    @FindBy(xpath = "//*[@id='susbscribe_email']")
+    public WebElement subscriptionEmailBox;
+
+    @FindBy(xpath = "//*[@class='fa fa-arrow-circle-o-right']")
+    public WebElement subscriptionOkButton;
+
+    @FindBy(xpath = "//*[@class='alert-success alert']")
+    public WebElement successMessageAlert;
+
+    @FindBy(xpath = "//*[@class='fa fa-shopping-cart']")
+    public WebElement cartButton;
+
+  //  @FindBy(css = "#first_name")
+   // public WebElement firstnameBoxNewSignup;
+
+
+    //TC12
+
+    @FindBy(css = ".material-icons.card_travel")
+    public WebElement products;
+
+    @FindBy(xpath = "(//a[text()='Add to cart'])[1]")
+    public WebElement addToChart;
+
+    @FindBy(css = ".btn.btn-success.close-modal.btn-block")
+    public WebElement continueShopping;
+
+    @FindBy(xpath = "(//a[text()='Add to cart'])[3]")
+    public WebElement addToChart2;
+
+    @FindBy(xpath = "(//a[@href=\"/view_cart\"])[2]")
+    public WebElement viewCart;
+
+    @FindBy(xpath = "//tbody/tr")
+    public List<WebElement> productsList;
+
+
+    @FindBy(xpath = "//tbody/tr[1]/td[3]/p")
+    public WebElement firstProductPrice;
+
+
+    @FindBy(xpath = "//tbody/tr[2]/td[3]/p")
+    public WebElement secondProductPrice;
+
+
+    @FindBy(xpath = "//tbody/tr[1]/td[4]/button")
+    public WebElement firstProductQuantity;
+
+
+    @FindBy(xpath = "//tbody/tr[2]/td[4]/button")
+    public WebElement secondProductQuantity;
+
+
+    @FindBy(xpath = "//tr[1]/td[5]/p")
+    public WebElement firstProductTotal;
+
+    @FindBy(xpath = "//tr[2]/td[5]/p")
+    public WebElement secondProductTotal;
+
+    @FindBy(xpath = "//*[@class='btn btn-success close-modal btn-block']")
+    public WebElement shoppingButton;
+
+
+    //TC13
+
+
+    @FindBy(css = ".nav.nav-pills.nav-justified>li>a")
+    public List<WebElement> viewProductButtonList;
+
+
+    @FindBy(css = ".product-information")
+    public WebElement productDetail;
+
+
+    @FindBy(css = "#quantity")
+    public WebElement quantity;
+
+
+    @FindBy(css = ".btn.btn-default.cart")
+    public WebElement addToCartButton;
+
+
+    @FindBy(xpath = "//tr[1]/td[4]/button")
+    public WebElement quantityInCart;
+
 
 }

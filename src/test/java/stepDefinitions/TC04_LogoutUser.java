@@ -1,12 +1,10 @@
 package stepDefinitions;
 
 import io.cucumber.java.en.And;
-import io.cucumber.java.en.Then;
 import pages.AutomationPage;
-import utilities.ConfigReader;
 import utilities.ReusableMethods;
 
-public class T04_LogoutUser {
+public class TC04_LogoutUser {
 
     AutomationPage page = new AutomationPage();
     @And("Click Logout button")

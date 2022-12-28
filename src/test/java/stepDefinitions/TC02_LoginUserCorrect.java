@@ -4,10 +4,9 @@ import io.cucumber.java.en.*;
 import org.junit.Assert;
 import pages.AutomationPage;
 
-import stepDefinitions.Hooks;
 import utilities.ReusableMethods;
 
-public class T02_LoginUserCorrect {
+public class TC02_LoginUserCorrect {
 
     AutomationPage page = new AutomationPage();
 

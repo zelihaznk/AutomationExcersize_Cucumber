@@ -1,11 +1,10 @@
 package stepDefinitions;
 
 import io.cucumber.java.en.And;
-import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import pages.AutomationPage;
 
-public class T03_LoginUserInCorrect {
+public class TC03_LoginUserInCorrect {
 
     AutomationPage page = new AutomationPage();
     @And("Enter incorrect email address and password")
