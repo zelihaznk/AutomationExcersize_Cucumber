@@ -208,6 +208,8 @@ public class AutomationPage {
     @FindBy(xpath = "//*[@class='features_items']")
     public WebElement wantedProduct;
 
+    @FindBy(css = "#first_name")
+    public WebElement firstnameBoxNewSignup;
 
 
 }
