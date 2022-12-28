@@ -1,5 +1,6 @@
 package stepDefinitions.Api_StepDefinitions;
 
+import API.base_url.AutomationexerciseBaseUrl;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -10,12 +11,12 @@ import java.util.HashMap;
 
 import static io.restassured.RestAssured.given;
 
-public class Api02Steps extends TestBaseApi{
+public class Api02Steps extends AutomationexerciseBaseUrl {
     Response response;
 
     @Given("kullanici post islemi {string} endpointe request gonderir")
     public void kullaniciPostIslemiEndpointeRequestGonderir(String pathParametresi) {
-    setup();
+    setUp();
     spec.pathParam("1",pathParametresi);
         HashMap<String,String>userType=new HashMap<>();
         HashMap<String,Object>category=new HashMap<>();

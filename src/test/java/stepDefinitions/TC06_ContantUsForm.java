@@ -10,7 +10,7 @@ import utilities.ReusableMethods;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-public class T06_ContantUsForm {
+public class TC06_ContantUsForm {
 
     AutomationPage page = new AutomationPage();
 

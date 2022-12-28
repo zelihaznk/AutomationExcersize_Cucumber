@@ -1,12 +1,10 @@
 package stepDefinitions;
 
 import io.cucumber.java.en.And;
-import io.cucumber.java.en.Then;
 import pages.AutomationPage;
 import utilities.ConfigReader;
-import utilities.ReusableMethods;
 
-public class T05_RegisterUserwithExistingEmail {
+public class TC05_RegisterUserwithExistingEmail {
 
     AutomationPage page = new AutomationPage();
     @And("Enter name and already registered email address")
