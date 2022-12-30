@@ -4,7 +4,7 @@ import io.cucumber.java.en.And;
 import org.junit.Assert;
 import pages.AutomationPage;
 
-public class TC03_LoginUserInCorrect {
+public class UI_TC03_LoginUserInCorrect {
 
     AutomationPage page = new AutomationPage();
     @And("Enter incorrect email address and password")

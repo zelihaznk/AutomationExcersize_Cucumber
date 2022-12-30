@@ -1,12 +1,11 @@
 package stepDefinitions;
 
 import io.cucumber.java.en.And;
-import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import pages.AutomationPage;
 import utilities.ReusableMethods;
 
-public class TC17_RemoveProductsFromCart {
+public class UI_TC17_RemoveProductsFromCart {
 
     AutomationPage page = new AutomationPage();
 

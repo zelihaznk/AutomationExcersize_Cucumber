@@ -3,7 +3,6 @@ package stepDefinitions;
 import com.github.javafaker.Faker;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
 import pages.AutomationPage;
@@ -12,7 +11,7 @@ import utilities.ReusableMethods;
 
 import java.io.IOException;
 
-public class TC14_15_PlaceOrderRegisterWhileCheckout {
+public class UI_TC14_15_PlaceOrderRegisterWhileCheckout {
 
 
     AutomationPage page = new AutomationPage();

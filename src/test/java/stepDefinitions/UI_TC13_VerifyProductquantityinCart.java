@@ -1,8 +1,6 @@
 package stepDefinitions;
 
 import io.cucumber.java.en.And;
-import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
 import pages.AutomationPage;
 import utilities.Driver;
 
@@ -11,7 +9,7 @@ import static org.testng.AssertJUnit.assertEquals;
 import static utilities.ReusableMethods.jsScrollClick;
 import static utilities.ReusableMethods.random;
 
-public class TC13_VerifyProductquantityinCart {
+public class UI_TC13_VerifyProductquantityinCart {
 
 
     AutomationPage page = new AutomationPage();

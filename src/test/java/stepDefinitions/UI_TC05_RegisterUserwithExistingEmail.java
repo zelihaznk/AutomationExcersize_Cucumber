@@ -4,7 +4,7 @@ import io.cucumber.java.en.And;
 import pages.AutomationPage;
 import utilities.ConfigReader;
 
-public class TC05_RegisterUserwithExistingEmail {
+public class UI_TC05_RegisterUserwithExistingEmail {
 
     AutomationPage page = new AutomationPage();
     @And("Enter name and already registered email address")

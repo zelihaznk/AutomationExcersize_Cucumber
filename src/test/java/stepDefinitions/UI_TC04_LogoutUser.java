@@ -4,7 +4,7 @@ import io.cucumber.java.en.And;
 import pages.AutomationPage;
 import utilities.ReusableMethods;
 
-public class TC04_LogoutUser {
+public class UI_TC04_LogoutUser {
 
     AutomationPage page = new AutomationPage();
     @And("Click Logout button")

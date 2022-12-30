@@ -10,7 +10,7 @@ import java.io.IOException;
 
 import static org.junit.Assert.assertTrue;
 
-public class TC10_VerifySubscriptionInHomePage {
+public class UI_TC10_VerifySubscriptionInHomePage {
 
     AutomationPage page = new AutomationPage();
 

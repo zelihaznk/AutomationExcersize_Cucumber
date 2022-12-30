@@ -12,7 +12,7 @@ import java.io.IOException;
 
 import static org.junit.Assert.assertTrue;
 
-public class TC09_SearchProduct {
+public class UI_TC09_SearchProduct {
     AutomationPage page = new AutomationPage();
 
     @And("Enter product name in search input and click search button")
