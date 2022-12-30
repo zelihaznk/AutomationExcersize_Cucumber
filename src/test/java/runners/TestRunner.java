@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
                 "rerun:target/failedRerun.txt"},
         features = {"src/test/resources/features"},
         glue = {"stepDefinitions"},
-        tags = "@TC013",
+        tags = "@TC017",
         dryRun = false
 )
 public class TestRunner {
