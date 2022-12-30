@@ -35,7 +35,7 @@ public class Hooks {
         email = Faker.instance().internet().emailAddress();
         password = Faker.instance().internet().password();
 
-        Driver.getDriver().get(ConfigReader.getProperty("autoUrl"));
+        Driver.getDriver().get(ConfigReader.getProperty("automationExerciesUrl"));
         jsScrollClick(page.signupLoginLink);
         page.nameBoxSignup.sendKeys(Faker.instance().name().name());
         page.emailBoxSignup.sendKeys(email);
