@@ -119,20 +119,18 @@ public class TC01_RegisterUser {
 
     @Then("Verify that Logged in as username is visible")
     public void verifyThatLoggedInAsUsernameIsVisible() {
-       Driver.getDriver().navigate().refresh();
-       auto.automationExcersizeWebsite.click();
-       ReusableMethods.waitForVisibility(auto.logged,3);
-       auto.logged.isDisplayed();
+        Driver.getDriver().navigate().refresh();
+        auto.logged.isDisplayed();
     }
 
     @And("Click Delete Account button")
     public void clickDeleteAccountButton() {
-      //  ReusableMethods.jsScrollClick(auto.delete);
+        ReusableMethods.jsScrollClick(auto.delete);
     }
 
     @And("Verify that ACCOUNT DELETED! is visible and click Continue button")
     public void verifyThatACCOUNTDELETEDIsVisibleAndClickContinueButton() {
-      //  auto.accountDelete.isDisplayed();
+        auto.accountDelete.isDisplayed();
 
     }
 }

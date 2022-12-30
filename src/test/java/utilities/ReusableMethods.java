@@ -262,4 +262,21 @@ public class ReusableMethods {
 
         select(element).selectByIndex(index);
     }
+
+    public static String dateMonth() {
+
+        String month;
+        LocalDateTime dateTime = LocalDateTime.now();
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM");
+        return month = dateTime.format(formatter);
+    }
+
+    public static String dateYear() {
+
+        String year;
+        LocalDateTime localDateTime = LocalDateTime.now();
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy");
+        return year = localDateTime.format(formatter);
+
+    }
 }
