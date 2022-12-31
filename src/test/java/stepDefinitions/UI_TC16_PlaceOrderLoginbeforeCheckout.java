@@ -2,7 +2,6 @@ package stepDefinitions;
 
 import com.github.javafaker.Faker;
 import io.cucumber.java.en.And;
-import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WindowType;
@@ -18,7 +17,7 @@ import static utilities.Driver.getDriver;
 import static utilities.Driver.selectDropDown;
 import static utilities.ReusableMethods.*;
 
-public class TC16_PlaceOrderLoginbeforeCheckout {
+public class UI_TC16_PlaceOrderLoginbeforeCheckout {
 
     AutomationPage page = new AutomationPage();
 

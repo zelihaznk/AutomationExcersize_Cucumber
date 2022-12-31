@@ -1,7 +1,6 @@
 package stepDefinitions;
 
 import io.cucumber.java.en.And;
-import io.cucumber.java.en.Then;
 import org.openqa.selenium.WebElement;
 import pages.AutomationPage;
 import utilities.Driver;
@@ -11,7 +10,7 @@ import java.io.IOException;
 
 import static org.junit.Assert.assertTrue;
 
-public class TC08_VerifyAllProductsAndProductDetailPage {
+public class UI_TC08_VerifyAllProductsAndProductDetailPage {
 
     AutomationPage page = new AutomationPage();
     @And("Click on Products button")

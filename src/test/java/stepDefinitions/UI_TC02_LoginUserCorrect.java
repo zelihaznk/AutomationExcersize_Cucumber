@@ -6,7 +6,7 @@ import pages.AutomationPage;
 
 import utilities.ReusableMethods;
 
-public class TC02_LoginUserCorrect {
+public class UI_TC02_LoginUserCorrect {
 
     AutomationPage page = new AutomationPage();
 

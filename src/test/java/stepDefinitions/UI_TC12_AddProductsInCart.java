@@ -10,7 +10,7 @@ import utilities.ReusableMethods;
 import static org.junit.Assert.assertTrue;
 
 
-public class TC12_AddProductsInCart {
+public class UI_TC12_AddProductsInCart {
 
     AutomationPage page = new AutomationPage();
 
