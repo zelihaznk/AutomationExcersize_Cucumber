@@ -52,7 +52,7 @@ public class UI_TC08_VerifyAllProductsAndProductDetailPage {
 
     @And("Verify that detail detail is visible: product name, category, price, availability, condition, brand")
     public void verifyThatDetailDetailIsVisibleProductNameCategoryPriceAvailabilityConditionBrand() throws IOException {
-        ReusableMethods.getScreenshotWebElement("Urun Bilgisi",page.productInformationScreenshot);
+        ReusableMethods.getScreenshotWebElement("Product Information",page.productInformationScreenshot);
 
         assertTrue(page.productName.isDisplayed());
         assertTrue(page.productCategory.isDisplayed());

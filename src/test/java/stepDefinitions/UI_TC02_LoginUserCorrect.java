@@ -16,8 +16,8 @@ public class UI_TC02_LoginUserCorrect {
     }
     @And("Enter correct email address and password")
     public void enterCorrectEmailAddressAndPassword() {
-        page.emailBoxLogin.sendKeys(Hooks.email);
-        page.passwordBoxLogin.sendKeys(Hooks.password);
+        page.emailBoxLogin.sendKeys(Register.email);
+        page.passwordBoxLogin.sendKeys(Register.password);
     }
     @And("Click login button")
     public void clickLoginButton() {

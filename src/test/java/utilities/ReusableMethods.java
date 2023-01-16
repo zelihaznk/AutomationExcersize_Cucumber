@@ -19,6 +19,8 @@ import java.util.List;
 import java.util.Random;
 import java.util.function.Function;
 
+import static utilities.Driver.getDriver;
+
 public class ReusableMethods {
 
     static String tarih;
@@ -278,5 +280,23 @@ public class ReusableMethods {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy");
         return year = localDateTime.format(formatter);
 
+    }
+
+    //====== js ======//
+    public static void jsclick(WebElement webElement){
+        JavascriptExecutor js = (JavascriptExecutor) getDriver();
+        js.executeScript("arguments[0].click();", webElement);
+        try {
+            webElement.click();
+        } catch (Exception e) {
+            JavascriptExecutor executor = (JavascriptExecutor) getDriver();
+            executor.executeScript("arguments[0].click();", webElement);
+        }
+    }
+
+    public static void visibilityOfWait(WebElement webElement) {
+
+        WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(20));
+        wait.until(ExpectedConditions.visibilityOf(webElement));
     }
 }
